@@ -1,0 +1,50 @@
+[
+  {
+    "id": "note_001",
+    "title": "Meeting with Marketing Team",
+    "summary": "Discussed Q2 campaign performance. SEO improved by 18%. Email open rates down 5%. Plan to A/B test subject lines. Next meeting scheduled for April 10.",
+    "createdAt": "2025-04-05T14:30:00Z"
+  },
+  {
+    "id": "note_002",
+    "title": "Book Summary: Atomic Habits",
+    "summary": "Key takeaway: Small habits compound over time. Focus on systems, not goals. Make habits obvious, attractive, easy, and satisfying.",
+    "createdAt": "2025-04-06T10:12:00Z"
+  },
+  {
+    "id": "note_003",
+    "title": "Therapy Reflection - April 6",
+    "summary": "Talked about setting boundaries with work. Realized need to prioritize rest. Agreed to try journaling nightly for clarity.",
+    "createdAt": "2025-04-06T18:45:00Z"
+  },
+  {
+    "id": "note_004",
+    "title": "Startup Pitch Prep",
+    "summary": "Focused on refining problem statement. Practiced 3-minute pitch. Feedback: clarify target audience and emphasize traction metrics.",
+    "createdAt": "2025-04-07T09:00:00Z"
+  },
+  {
+    "id": "note_005",
+    "title": "Weekly Goals Planning",
+    "summary": "Outlined goals for the week: finalize onboarding flow, update landing page copy, and schedule user interviews. Prioritized by urgency and impact.",
+    "createdAt": "2025-04-07T12:15:00Z"
+  },
+  {
+    "id": "note_006",
+    "title": "AI Research Paper Summary",
+    "summary": "Paper explores transformer-based models for language generation. Introduces a hybrid fine-tuning approach that improves coherence in long-form outputs.",
+    "createdAt": "2025-04-07T14:42:00Z"
+  },
+  {
+    "id": "note_007",
+    "title": "Personal Journal Entry",
+    "summary": "Reflected on productivity highs and lows. Noticed correlation between sleep quality and focus. Planning to stick to 11 PM bedtime for a week.",
+    "createdAt": "2025-04-07T21:00:00Z"
+  },
+  {
+    "id": "note_008",
+    "title": "Customer Interview #3",
+    "summary": "Interviewee expressed frustration with current app onboarding. Suggested adding a quick demo video. Noted excitement about the analytics dashboard.",
+    "createdAt": "2025-04-07T22:30:00Z"
+  }
+]
