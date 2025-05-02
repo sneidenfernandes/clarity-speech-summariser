@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@azure/identity": "^4.9.1",
@@ -23,6 +24,7 @@
     "next-auth": "^4.24.11",
     "openai": "^4.95.1",
     "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-speech-recognition": "^4.0.0",
