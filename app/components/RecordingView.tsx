@@ -6,8 +6,6 @@ import useRecorder from "../context/recorderContext";
 import { RecordingState } from "../context/recorderContext";
 import PermissionPopUp from "./PermissionPopUp";
 import RecordingStateView from "./RecordingStateView";
-import { get } from "http";
-import SmallLogo from "./SmallLogo";
 
 interface RecordingViewInputs {
     login: boolean
