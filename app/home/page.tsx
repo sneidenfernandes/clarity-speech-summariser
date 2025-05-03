@@ -11,7 +11,7 @@ import useView from "../context/viewContext";
 import FullCard from "../components/FullCard";
 import SmallLogo from "../components/SmallLogo";
 import useRecorder, { RecordingState } from "../context/recorderContext";
-import SummaryView from "../components/SummaryView";
+import { getSession, useSession } from "next-auth/react";
 
 
 
@@ -31,9 +31,13 @@ export default function Home(){
     const {deletePopUp} = useDelete();
     const {viewPopUp, viewData} = useView();
     const {recordingState, setRecordingState} = useRecorder(); 
-
+    const {status} = useSession();
 
     useEffect(() => {
+      if(status !== "authenticated"){
+        window.location.href = "/";
+      }
+
       if(recordingState !== RecordingState.IDLE){
         setRecordingState(RecordingState.IDLE)
       }
