@@ -15,7 +15,7 @@ export default function RootLayout({
 
       <DeleteContextProvider>
       <VeiwContextProvider>
-        <div className='bg-zinc-500 w-full min-h-screen relative'>
+        <div className='bg-zinc-500 w-full overflow-x-auto min-h-screen relative'>
             <Navbar />
             <main className='p-5 '>
               {children}

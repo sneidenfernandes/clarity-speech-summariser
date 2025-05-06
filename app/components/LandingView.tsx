@@ -19,7 +19,7 @@ export default function LandingView(){
     }
 
 
-    return <div className="flex flex-col items-center">
+    return <div className="flex flex-col items-center w-full">
             <motion.div 
               initial={{ opacity: 0, y: -50 }} 
               animate={{ opacity: 1, y: 0 }}
