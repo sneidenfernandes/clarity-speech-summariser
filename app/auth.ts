@@ -31,8 +31,7 @@ export const authOptions = {
     },
     
   },
-  adapter: PrismaAdapter(prisma),
-  debug: true
+  adapter: PrismaAdapter(prisma)
 
   
 }   

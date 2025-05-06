@@ -32,11 +32,20 @@ export function DeleteContextProvider({children}:{children: ReactNode}){
 
     const handleDelete = async () => {
         
-             closePopUp();
-        try{const response = await fetch(`api/user/notes?id=${noteId}`, {
+        closePopUp();
+            
+        try{
+            
+            const response = await fetch(`api/user/notes?id=${noteId}`, {
             method: "DELETE"
-       })}catch(e){
-        
+       })
+
+    
+        }catch(e){
+            console.error("API request failed", e)
+       }
+       finally{
+        window.location.reload()
        }
            
     }

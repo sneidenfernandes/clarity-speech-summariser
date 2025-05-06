@@ -21,7 +21,6 @@ export default function RecordingStateView({handleCancel}: RecordStateViewInput)
         setRecordingState(RecordingState.PROCESSING);
         stopRecording();
         refresh();
-
     }
 
  
@@ -36,7 +35,7 @@ export default function RecordingStateView({handleCancel}: RecordStateViewInput)
                 </h3>
             </div>
 
-            <p className="flex justify-center font-roboto text-white opacity-40">
+            <p className="text-sm md:text-base flex justify-center font-roboto text-white opacity-40">
                   Press to summarize
             </p>
 

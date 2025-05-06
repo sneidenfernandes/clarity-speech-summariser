@@ -28,15 +28,8 @@ export default function FullCard({title, summary, date, login}: FullCardInputs) 
 
     const handleClose = () => {
 
-    
-            if(login){
-                setRecordingState(RecordingState.IDLE);
-            }else {
-                setRecordingState(RecordingState.IDLE);
-                closeViewPopUp?.();
-            }
-
-
+        setRecordingState(RecordingState.IDLE);
+        closeViewPopUp?.();
        
     }
 
