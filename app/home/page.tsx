@@ -63,7 +63,7 @@ export default function Home(){
   
     
     return <div className={`bg-zinc-500 w-full overflow-x-auto overflow-auto min-h-screen flex-flex-col `}>
-        <div className="mt-[20vh] md:mt-[15vh] lg:mt-[10vh] -mb-15"><SmallLogo/></div>
+        {/* <div className="mt-[20vh] md:mt-[15vh] lg:mt-[10vh] -mb-15"><SmallLogo/></div> */}
         <div className={`${deletePopUp ? "opacity-40": ""}`}>
             {recordingState === RecordingState.IDLE         &&  <NoteList list={notes}/>}
             {recordingState === RecordingState.RECORDING    &&  <div className="mt-[20vh]"><RecordingView login={false} /></div>}
