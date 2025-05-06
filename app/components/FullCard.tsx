@@ -17,8 +17,7 @@ interface FullCardInputs {
 
 
 export default function FullCard({title, summary, date, login}: FullCardInputs) {
-    const router = useRouter();
-    const session = useSession();
+  
     
     const {closeViewPopUp} = useView();
     const {setRecordingState} = useRecorder();

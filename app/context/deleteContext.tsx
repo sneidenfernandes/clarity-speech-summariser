@@ -35,12 +35,11 @@ export function DeleteContextProvider({children}:{children: ReactNode}){
         closePopUp();
             
         try{
-            
-            const response = await fetch(`api/user/notes?id=${noteId}`, {
+            console.log(process.env.NEXTAUTH_URL)
+            const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/user/notes?id=${noteId}`, {
             method: "DELETE"
        })
-
-    
+      
         }catch(e){
             console.error("API request failed", e)
        }
@@ -49,6 +48,7 @@ export function DeleteContextProvider({children}:{children: ReactNode}){
        }
            
     }
+
 
 
 
