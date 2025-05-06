@@ -1,9 +1,6 @@
 import Divider from "./Divider"
 import Illustration from "./Illustration"
 
-
-
-
 export default function SkeletonCard(){
 
     

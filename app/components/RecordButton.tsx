@@ -1,4 +1,3 @@
-import {MouseEventHandler} from "react";
 import useRecorder from "../context/recorderContext";
 import { RecordingState } from "../context/recorderContext";
 

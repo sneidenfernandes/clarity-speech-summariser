@@ -1,8 +1,6 @@
 "use client";
 
 import FullCard from "./FullCard";
-import GButton from "./GButton";
-import SmallLogo from "./SmallLogo";
 import { useEffect, useState } from "react";
 import useRecorder from "../context/recorderContext";
 

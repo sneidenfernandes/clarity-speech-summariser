@@ -1,7 +1,4 @@
 "use client";
-
-
-
 export default function SmallLogo() {
     return (
         <div className="flex flex-col items-center mt-5">

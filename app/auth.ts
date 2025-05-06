@@ -3,6 +3,7 @@ import type { JWT } from "next-auth/jwt";
 import GoogleProvider from "next-auth/providers/google";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import { prisma } from "@/lib/prisma";
+import { debug } from "console";
 
 
 
@@ -30,7 +31,8 @@ export const authOptions = {
     },
     
   },
-  adapter: PrismaAdapter(prisma)
+  adapter: PrismaAdapter(prisma),
+  debug: true
 
   
 }   
