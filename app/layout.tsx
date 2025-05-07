@@ -7,6 +7,7 @@ import { authOptions } from "./auth";
 import { DeleteContextProvider } from "./context/deleteContext";
 import { VeiwContextProvider } from "./context/viewContext"
 import { RecorderContextProvider } from "./context/recorderContext";
+import Footer from "./components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,6 +43,7 @@ export default async function RootLayout({
                     </VeiwContextProvider>
               </DeleteContextProvider>
           </RecorderContextProvider>
+          <Footer/>
       </body>   
       
     </html>
