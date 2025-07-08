@@ -22,15 +22,16 @@ export default function Landing() {
   },[]);
 
   return (
-    <div className="w-full min-h-screen overflow-x-auto overflow-auto bg-zinc-600 flex justify-center items-center">
-        <div className="flex justify-center max-w-[90w] md:max-w-[60vw] lg:max-w-[50vw]">
-            <div className="flex flex-col items-center">
-              {recordingState === RecordingState.IDLE        &&   <LandingView/> }
-              {recordingState === RecordingState.RECORDING   &&   <RecordingView  login={true}/>}
-              {recordingState === RecordingState.PROCESSING  &&   <ProcessingView loginPage={true}/>}
-              {recordingState === RecordingState.COMPLETE    &&   <SummaryView loginPage={true}/>}       
-            </div>
-        </div>
+    <div className="w-full min-h-screen overflow-x-auto overflow-auto bg-gradient-to-r from-neutral-950 via-neutral-900 to-neutral-950 flex justify-center items-center">
+ 
+          <div className="flex justify-center max-w-[90w] md:max-w-[60vw] lg:max-w-[50vw]">
+              <div className="flex flex-col items-center">
+                {recordingState === RecordingState.IDLE        &&   <LandingView/> }
+                {recordingState === RecordingState.RECORDING   &&   <RecordingView  login={true}/>}
+                {recordingState === RecordingState.PROCESSING  &&   <ProcessingView loginPage={true}/>}
+                {recordingState === RecordingState.COMPLETE    &&   <SummaryView loginPage={true}/>}       
+              </div>
+          </div>
     </div>
   );
 }

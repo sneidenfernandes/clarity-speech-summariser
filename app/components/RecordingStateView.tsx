@@ -25,7 +25,7 @@ export default function RecordingStateView({handleCancel}: RecordStateViewInput)
 
  
     
-    return <div className={`w-[90vw] md:w-[60vw] lg:w-[40vw]  border-[1px] shadow-md rounded-xl h-[50vh] flex justify-center bg-zinc-800`}>
+    return <div className={`w-[90vw] md:w-[60vw] lg:w-[40vw]  border-[1px] shadow-md rounded-xl h-[50vh] flex justify-center bg-gradient-to-r from-neutral-950 via-neutral-900 to-neutral-950`}>
  
         <div className="flex flex-col justify-evenly">
             <SmallLogo/>
