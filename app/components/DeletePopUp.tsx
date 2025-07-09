@@ -34,13 +34,13 @@ const DeletePopUp = ({ fetchNotes }: DeletePopUpInput) => {
                     <div className="flex justify-center space-x-4 w-full">
                         <button 
                             onClick={closePopUp}
-                            className="px-4 py-2 bg-neutral-900 border flex gap-2 border-zinc-600  rounded-lg text-neutral-400 hover:border-zinc-600 hover:text-zinc-200 hover:shadow hover:shadow-white/20 transition-all duration-150 ease-out"
+                            className="px-4 py-2 bg-neutral-900 border flex gap-2 rounded-lg text-neutral-400  hover:text-zinc-200 hover:shadow hover:shadow-white/20 transition-all duration-150 ease-out"
                         >
                             Cancel
                         </button>
                         <button 
                             onClick={handleDeleteRequest}
-                            className="px-4 py-2 bg-red-900 border flex gap-2 border-zinc-600  rounded-lg text-neutral-400 hover:border-zinc-600 hover:text-zinc-200 hover:shadow hover:shadow-white/20 transition-all duration-150 ease-out"
+                            className="px-4 py-2 bg-red-900 border flex gap-2 rounded-lg text-neutral-400  hover:text-zinc-200 hover:shadow hover:shadow-white/20 transition-all duration-150 ease-out"
                         >
                             Delete
                         </button>

@@ -43,7 +43,7 @@ export default function Navbar(){
     return (
 
 
-<nav className="bg-neutral-900/80  backdrop-blur-xl shadow-md/10 border-neutral-700 border-[1px] fixed w-full z-500">
+<nav className="bg-neutral-900/80  backdrop-blur-xl shadow-md/10 border-b-neutral-700 border-[1px] fixed w-full z-500">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4">
         <div>
             <svg width="180" height="80" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
