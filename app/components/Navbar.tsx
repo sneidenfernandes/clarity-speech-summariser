@@ -95,7 +95,7 @@ export default function Navbar(){
                     </div>
                     <div className="w-full px-20  border-gray-600/50"></div>
 
-                    <button onClick={async ()=> { await signOut({callbackUrl:"/"})}} className="font-roboto rounded-md border-[1px] border-zinc-700 mt-2 py-2 text-xs font-light bg-zinc-800 text-white hover:bg-zinc-800/70  transition-all duration-150 ease-out">
+                    <button onClick={async ()=> { await signOut({callbackUrl:"/"})}} className="font-roboto rounded-md border-[1px] border-zinc-700 mt-2 py-2 text-xs font-light bg-zinc-700 text-white hover:bg-zinc-800/70  transition-all duration-150 ease-out">
                         Sign out
                     </button>
             </div>
