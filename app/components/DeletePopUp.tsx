@@ -16,7 +16,7 @@ const DeletePopUp = ({ fetchNotes }: DeletePopUpInput) => {
 
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-opacity-70 backdrop-blur-sm z-50">
-            <div className="w-full max-w-md mx-4 bg-gradient-to-tr from-neutral-950 via-neutral-900 to-neutral-950 border border-neutral-800 rounded-xl shadow-xl overflow-hidden">
+            <div className="w-full max-w-md mx-4 bg-gradient-to-tr from-neutral-800 via-neutral-800 to-neutral-800 border border-neutral-800 rounded-xl shadow-xl overflow-hidden">
                 <div className="flex flex-col items-center p-6 space-y-6">
                     <div className="-mt-2">
                         <SmallLogo />
@@ -40,7 +40,7 @@ const DeletePopUp = ({ fetchNotes }: DeletePopUpInput) => {
                         </button>
                         <button 
                             onClick={handleDeleteRequest}
-                            className="px-4 py-2 bg-neutral-900 border flex gap-2 border-zinc-600  rounded-lg text-neutral-400 hover:border-zinc-600 hover:text-zinc-200 hover:shadow hover:shadow-white/20 transition-all duration-150 ease-out"
+                            className="px-4 py-2 bg-red-900 border flex gap-2 border-zinc-600  rounded-lg text-neutral-400 hover:border-zinc-600 hover:text-zinc-200 hover:shadow hover:shadow-white/20 transition-all duration-150 ease-out"
                         >
                             Delete
                         </button>
