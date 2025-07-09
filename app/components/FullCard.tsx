@@ -40,7 +40,7 @@ export default function FullCard({title, summary, date, login}: FullCardInputs) 
 
     return (
         
-             <div className={`fixed inset-0 flex items-center justify-center bg-opacity-70 backdrop-blur-sm z-50 h-full`}>
+             <div className={`fixed inset-0 flex items-center justify-center bg-opacity-70 backdrop-blur-sm z-200 h-full`}>
             
             <div className={`w-[90vw] md:w-[60vw] lg:w-[40vw] bg-gradient-to-tr from-neutral-900 via-neutral-900 shadow-black/50 to-neutral-950 border-[1px] border-neutral-800  rounded-xl shadow-lg overflow-hidden`}>
             {login && <SmallLogo/>}

@@ -15,7 +15,7 @@ const DeletePopUp = ({ fetchNotes }: DeletePopUpInput) => {
     };
 
     return (
-        <div className="fixed inset-0 flex items-center justify-center bg-opacity-70 backdrop-blur-sm z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-opacity-70 backdrop-blur-sm z-300">
             <div className="w-full max-w-md mx-4 bg-gradient-to-tr from-neutral-800 via-neutral-800 to-neutral-800 border border-neutral-800 rounded-xl shadow-xl overflow-hidden">
                 <div className="flex flex-col items-center p-6 space-y-6">
                     <div className="-mt-2">
