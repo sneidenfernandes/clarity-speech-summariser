@@ -49,6 +49,6 @@ export default function RecordingView({login}:RecordingViewInputs){
     return  <div className={`flex flex-col items-center ${login && "fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"}`} >
                 {!permission && <PermissionPopUp/>}
                 {(permission &&  RecordingState.RECORDING && !cancelPopUp) &&  <RecordingStateView handleCancel={handleCancel}/>}
-                {(permission &&  RecordingState.RECORDING && cancelPopUp )  && <CancelView handleNoButton={handleNoButton} handleYesButton={handleYesButton} /> }   
+                {(permission &&  RecordingState.RECORDING && cancelPopUp )  && <CancelView handleNoButton={handleNoButton} handleYesButton={handleYesButton} />}   
             </div>
 }
