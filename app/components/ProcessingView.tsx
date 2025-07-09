@@ -65,7 +65,7 @@ export default function ProcessingView({loginPage,fetchNotes}: LoadingInput){
     const color = "white";
 
     return <div className={` flex flex-col items-center  ${loginPage ? "fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2": "mt-[20vh]"}`} >
-                {<div className={`h-[60vh] md:h-[50vh] w-[90vw] md:w-[60vw] lg:w-[40vw] flex flex-col  shadow-md border-neutral-900 rounded-xl bg-gradient-to-r from-neutral-950 via-neutral-900 to-neutral-950`}>
+                {<div className={`h-[50vh] w-[90vw] md:w-[60vw] lg:w-[40vw] flex flex-col  shadow-md border-neutral-800 rounded-xl bg-gradient-to-tr from-neutral-950 via-neutral-900 to-neutral-950`}>
                     <SmallLogo />
                     <div className="text-xs text-zinc-400 w-full flex justify-center ">
                         This will take a few seconds

@@ -41,7 +41,7 @@ export default function Card({ title, summary, date, noteId }: Card) {
         >
         <li 
             onClick={handleView}
-            className="col-span-1 flex flex-col max-w-xs lg:max-w-sm bg-zinc-200 rounded-lg shadow p-5 hover:bg-slate-100 transition-all duration-200 ease-in overflow-hidden cursor-pointer"
+            className="col-span-1 flex flex-col bg-gradient-to-br from-neutral-200 via-neutral-300 shadow-black/50 to-neutral-300 max-w-xs lg:max-w-sm  rounded-lg shadow p-5  transition-all duration-200 ease-in overflow-hidden cursor-pointer"
         >
             <div className="font-roboto space-y-4 h-full flex flex-col">
                 <h3 className="text-lg w-full flex justify-center my-4 font-bold text-gray-900 leading-tight opacity-80 font-serif px-2">
@@ -62,7 +62,7 @@ export default function Card({ title, summary, date, noteId }: Card) {
                     </span>
                     <button 
                         onClick={handleDelete}
-                        className="text-gray-400 hover:text-red-800 transition-colors -mr-1"
+                        className="text-gray-500 hover:text-red-800 transition-colors -mr-1"
                         aria-label="Delete note"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">

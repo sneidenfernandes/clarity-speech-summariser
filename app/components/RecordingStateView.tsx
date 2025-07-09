@@ -25,17 +25,17 @@ export default function RecordingStateView({handleCancel}: RecordStateViewInput)
 
  
     
-    return <div className={`w-[90vw] md:w-[60vw] lg:w-[40vw]  border-[1px] shadow-md rounded-xl h-[50vh] flex justify-center bg-gradient-to-r from-neutral-950 via-neutral-900 to-neutral-950`}>
+    return <div className={`w-[90vw] md:w-[60vw] lg:w-[40vw] border-neutral-800  border-[1px] shadow-md rounded-xl h-[50vh] flex justify-center bg-gradient-to-tr from-neutral-950 via-neutral-900 to-neutral-950`}>
  
         <div className="flex flex-col justify-evenly">
             <SmallLogo/>
-            <div className="text-xl font-roboto  flex justify-center opacity-80 text-white ">
+            <div className="text-xl md:text-2xl font-roboto  flex justify-center opacity-80 text-white ">
                  <h3 className="">
                     <span className="opacity-50">Speak up!</span><span className="animate-pulse font-semibold "> I'm listening.</span> 
                 </h3>
             </div>
 
-            <p className="text-xs md:text-base flex justify-center font-roboto text-white opacity-40">
+            <p className="text-sm md:text-lg flex justify-center font-roboto text-white opacity-40">
                   Press to summarize
             </p>
 
@@ -44,13 +44,12 @@ export default function RecordingStateView({handleCancel}: RecordStateViewInput)
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
                     </svg>
             </div>
-            
             <div className="flex justify-center">
                 <RecordButton onClick={processRecording}/>
             </div>
             
             <div className="flex justify-center">
-                <button onClick={handleCancel} className=" px-6 py-2 text-sm font-medium text-gray-200 bg-zinc-700 hover:bg-zinc-500 rounded-lg transition-colors duration-200 ease-in">Cancel</button>
+                <button onClick={handleCancel} className="px-4 py-2 bg-neutral-900 border flex gap-2 border-zinc-600  rounded-lg text-neutral-400 hover:border-zinc-600 hover:text-zinc-200 hover:shadow hover:shadow-white/10 transition-all duration-150 ease-out">Cancel</button>
             </div>
         </div>
 </div> 

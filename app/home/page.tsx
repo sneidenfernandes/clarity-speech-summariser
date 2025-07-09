@@ -62,7 +62,7 @@ export default function Home(){
     
   
     
-    return <div className={`bg-zinc-500 w-full overflow-x-auto overflow-auto min-h-screen flex-flex-col `}>
+    return <div className={`bg-gradient-to-tr from-neutral-950 via-neutral-900 to-neutral-950 w-full overflow-x-auto overflow-auto min-h-screen flex-flex-col `}>
         {/* <div className="mt-[20vh] md:mt-[15vh] lg:mt-[10vh] -mb-15"><SmallLogo/></div> */}
         <div className={`${deletePopUp ? "opacity-40": ""}`}>
             {recordingState === RecordingState.IDLE         &&  <NoteList list={notes}/>}

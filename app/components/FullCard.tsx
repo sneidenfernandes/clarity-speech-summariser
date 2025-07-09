@@ -42,7 +42,7 @@ export default function FullCard({title, summary, date, login}: FullCardInputs) 
         
              <div className={`fixed inset-0 flex items-center justify-center bg-opacity-70 backdrop-blur-sm z-50 h-full`}>
             
-            <div className={`w-[90vw] md:w-[60vw] lg:w-[40vw] bg-zinc-800 border border-gray-700 rounded-xl shadow-lg overflow-hidden`}>
+            <div className={`w-[90vw] md:w-[60vw] lg:w-[40vw] bg-gradient-to-tr from-neutral-900 via-neutral-900 shadow-black/50 to-neutral-950 border-[1px] border-neutral-800  rounded-xl shadow-lg overflow-hidden`}>
             {login && <SmallLogo/>}
                 <div className="flex flex-col items-center p-6 space-y-6">
                     {/* Header with close button */}
@@ -58,13 +58,13 @@ export default function FullCard({title, summary, date, login}: FullCardInputs) 
                     </div>
 
                     {/* Footer */}
-                    <div className="w-full flex justify-between items-center pt-4 border-t border-gray-700">
+                    <div className="w-full flex justify-between items-center pt-4 border-t border-neutral-800">
                         <span className="text-sm text-gray-400">
                             {formattedDate}
                         </span>
                         <button 
                             onClick={handleClose}
-                            className="px-4 py-2 text-sm bg-zinc-500 hover:bg-zinc-700 text-gray-200 rounded-lg transition-colors"
+                            className="px-4 py-2 bg-neutral-900 border flex gap-2 border-zinc-600  rounded-lg text-neutral-400 hover:border-zinc-600 hover:text-zinc-200 hover:shadow hover:shadow-white/20 transition-all duration-150 ease-out"
                         >
                             Close
                         </button>

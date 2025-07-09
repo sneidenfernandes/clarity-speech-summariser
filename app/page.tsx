@@ -15,14 +15,14 @@ export default function Landing() {
   const {recordingState} = useRecorder();
   const {status} = useSession();
 
-  useEffect(()=>{
-    if(status === "authenticated"){
-      window.location.href = "/home";
-    }
-  },[]);
+  // useEffect(()=>{
+  //   if(status === "authenticated"){
+  //     window.location.href = "/home";
+  //   }
+  // },[]);
 
   return (
-    <div className="w-full min-h-screen overflow-x-auto overflow-auto bg-gradient-to-r from-neutral-950 via-neutral-900 to-neutral-950 flex justify-center items-center">
+    <div className="w-full min-h-screen overflow-x-auto overflow-auto bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950 flex justify-center items-center">
  
           <div className="flex justify-center max-w-[90w] md:max-w-[60vw] lg:max-w-[50vw]">
               <div className="flex flex-col items-center">

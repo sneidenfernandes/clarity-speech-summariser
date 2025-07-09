@@ -18,7 +18,7 @@ export default function RecordButton({ onClick }: RecordButtonInput) {
         rounded-full
         bg-black 
         border border-white/20 
-        ${isRecording ? "bg-neutral-900/20" : "bg-neutral-900/10"} 
+        ${isRecording ? "bg-neutral-900/80" : "bg-neutral-900/70"} 
         backdrop-blur-md 
         shadow-white
         hover:shadow-sm

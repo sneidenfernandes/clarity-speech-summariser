@@ -43,7 +43,7 @@ export default function Navbar(){
     return (
 
 
-<nav className="bg-zinc-600 shadow-md/10 border-gray-200 fixed w-full z-500">
+<nav className="bg-neutral-900/80  backdrop-blur-xl shadow-md/10 border-gray-200 fixed w-full z-500">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4">
         <div>
             <svg width="180" height="80" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +59,7 @@ export default function Navbar(){
         <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse relative">
             {
                 <button ref={buttonRef} onClick={()=>{setDropdown(!dropdown)}} className="w-12  h-12 mr-3">
-                        <img className="rounded-xl object-fit " src={image} />
+                        <img className="rounded-full object-fit " src={image} />
                 </button >
             }
             <div  
@@ -70,10 +70,10 @@ export default function Navbar(){
                 transition-all duration-200 ease-out
                 flex flex-col 
                 py-3 px-3 
-                border border-gray-500 shadow-lg
+                border border-neutral-700 shadow-lg
                 top-12 right-4 
                 w-48 
-                rounded-lg bg-zinc-700/100`}>
+                rounded-lg bg-gradient-to-tl from-neutral-900 via-neutral-800 to-neutral-900`}>
                     <div className={`flex flex-col items-center transition-all duration-300`}>
                 <h2 className="text-white font-roboto text-md font-semibold opacity-90 mb-2">
                     Clarity.
@@ -95,7 +95,7 @@ export default function Navbar(){
                     </div>
                     <div className="w-full px-20  border-gray-600/50"></div>
 
-                    <button onClick={async ()=> { await signOut({callbackUrl:"/"})}} className="font-roboto rounded-md border-[1px] border-zinc-500 mt-2 py-2 text-xs font-light bg-zinc-700 text-white hover:bg-zinc-800  transition-all duration-150 ease-out">
+                    <button onClick={async ()=> { await signOut({callbackUrl:"/"})}} className="font-roboto rounded-md border-[1px] border-zinc-700 mt-2 py-2 text-xs font-light bg-zinc-800 text-white hover:bg-zinc-800/70  transition-all duration-150 ease-out">
                         Sign out
                     </button>
             </div>
