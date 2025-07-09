@@ -21,7 +21,6 @@ export default function RecordButton({ onClick }: RecordButtonInput) {
         ${isRecording ? "bg-neutral-900/80" : "bg-neutral-900/70"} 
         backdrop-blur-md 
         shadow-white
-        hover:shadow-sm
         shadow-xs
         transition-all duration-100 
         hover:scale-105 
